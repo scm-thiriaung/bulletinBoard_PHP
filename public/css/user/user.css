@@ -1,0 +1,21 @@
+.not-active {
+    pointer-events: none;
+    cursor: default;
+    background-color: lightgray;
+    border-color: lightgray;
+}
+
+.btnDelete:disabled{
+    background-color: lightgray;
+    border-color: lightgray;
+}
+
+.btnLink:disabled{
+    background-color: lightgray;
+    border-color: lightgray;
+}
+
+.btnSubmit:disabled{
+    background-color: lightgray;
+    border-color: lightgray;
+}
