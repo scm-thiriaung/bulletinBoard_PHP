@@ -23,10 +23,11 @@
   <h3 align="center" class="title">User Register</h3><br />
   @if ($errors->any())
     <div class="alert alert-danger alert-block">
-      @foreach ($errors->all() as $error))
-        <button type="button" class="close" data-dismiss="alert">×</button>
-        <strong>{{ $error }}</strong><br>
+    <ul>
+      @foreach ($errors->all() as $error)
+        <li>{{ $error }}</li>
       @endforeach
+      </ul>
     </div>
   @endif
   <div class="container py-3">
